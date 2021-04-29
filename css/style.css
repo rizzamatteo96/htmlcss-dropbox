@@ -44,7 +44,6 @@ body {
 /* button */
 .btn{
     background-color: #0061ff;
-    /* border: 1px solid black; */
     padding: 10px 20px;
     color: white;
     display: inline-block;
@@ -192,6 +191,9 @@ p {
     margin-top: 180px;
 }
 
+.sec-plan .container-tight>*{
+    margin-bottom: 20px;
+}
 
 
 /* footer */
@@ -228,7 +230,7 @@ footer{
 
 
 .debug main section{
-    height: 500px;
+    height: 1500px;
     border: 1px solid black;
 }
 
@@ -249,4 +251,9 @@ footer{
     height: 800px;
     background-color: lightblue;
     border: 1px solid black;
+}
+
+.debug .sec-plan .bottom{
+    height: 100px;
+    background-color: violet;
 }
