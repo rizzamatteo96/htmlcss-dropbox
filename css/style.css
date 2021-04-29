@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
 }
 
 /* general properties */
@@ -51,7 +52,7 @@ header.pos-fix {
     position: absolute;
     transform: translateY(-50%);
     top: 50%;
-    line-height: 40px;
+    line-height: 80px;
 }
 
 .left-side {
@@ -71,14 +72,14 @@ header {
 }
 
 header .logo img{
-    height: 30px;
+    height: 32px;
     vertical-align: middle;
 }
 
 
 header ul li{
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 header ul li a{
@@ -87,8 +88,13 @@ header ul li a{
     font-size: 18px;
 }
 
+header ul li:hover{
+    border-bottom: 3px solid black;
+}
+
 header .right-side .btn{
     padding: 0 20px;
+    height: 50px;
 }
 
 
