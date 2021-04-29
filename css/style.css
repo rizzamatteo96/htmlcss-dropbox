@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* general properties */
@@ -27,6 +27,11 @@ body {
     position: relative;
 }
 
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
 /* header properties */
 header.pos-fix {
     position: fixed;
@@ -43,19 +48,18 @@ header.pos-fix {
 
 .left-side {
     left: 0;
+    padding-left: 20px;
 }
 
 .right-side {
     right: 0;
+    padding-right: 20px;
 }
 
 header {
     width: 100%;
     height: 80px;
-}
-
-header .logo{
-    margin-left: 50px;
+    background-color: white;
 }
 
 header .logo img{
@@ -72,21 +76,66 @@ header ul li{
 header ul li a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.btn{
+    background-color: #0061ff;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+}
+
+
+/* jumbotron */
+.jumbotron .cont-bgc {
+    background-color: #b4d0e7;
+    padding-top: 120px;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+
+.jumbo-left {
+    width: 30%;
+}
+
+p {
+    line-height: 26px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.jumbo-left .btn{
+    margin-bottom: 15px;
+}
+
+.jumbo-left span{
+    display: block;
+}
+
+.jumbo-left i{
+    display: inline-block;
+    font-size: 50px;
+    margin: 30px 0 100px 0;
+}
+
+
+/* jumbo-right */
+.jumbo-right{
+    position: absolute;
+    top: 350px;
+    right: 20px;
 }
 
 
 
-
-
-
-
-
-
-
-
 /* DEBUG - DA RIMUOVERE */
-.debug header {
+/* .debug header {
     background-color: red;
 }
 
@@ -104,4 +153,8 @@ header ul li a{
 
 .debug header .logo{
     background-color: yellow;
-}
+} */
+
+/* .debug .jumbotron {
+    height: 2000px;
+} */
