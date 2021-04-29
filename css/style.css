@@ -41,6 +41,14 @@ body {
     display: inline-block;
 }
 
+.btn:hover {
+    background-color: #2d7dfd;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
 /* header properties */
 header.pos-fix {
     position: fixed;
@@ -76,11 +84,29 @@ header .logo img{
     vertical-align: middle;
 }
 
-
 header ul li{
     display: inline-block;
     margin: 0 30px;
+    position: relative;
 }
+
+/* inizio proprietà - proprietà per creare le linee sotto quando selezionate da abbinare all'hover */
+header ul li:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    opacity: 0;
+}
+
+header ul li:hover:after{
+    opacity: 1;
+}
+/* fine proprietà */
+
 
 header ul li a{
     text-decoration: none;
@@ -88,13 +114,10 @@ header ul li a{
     font-size: 18px;
 }
 
-header ul li:hover{
-    border-bottom: 3px solid black;
-}
-
 header .right-side .btn{
     padding: 0 20px;
-    height: 50px;
+    height: 30px;
+    line-height: 30px;
 }
 
 
