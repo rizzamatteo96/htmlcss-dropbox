@@ -9,7 +9,8 @@ body {
     font-weight: 400;
 }
 
-/* general properties */
+/* GENERAL PROPERTIES */
+/* float */
 .clearfix::after {
     content: '';
     display: table;
@@ -24,15 +25,23 @@ body {
     float: right;
 }
 
+/* position */
 .pos-rel {
     position: relative;
 }
 
+/* container */
 .container {
     width: 85%;
     margin: 0 auto;
 }
 
+.container-tight{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* button */
 .btn{
     background-color: #0061ff;
     /* border: 1px solid black; */
@@ -48,6 +57,17 @@ body {
 .pointer:hover{
     cursor: pointer;
 }
+
+/* columns */
+.col{
+    float: left;
+    width: calc((100% - 60px) / 3);
+}
+
+.col.middle{
+    margin: 0 30px;
+}
+
 
 /* header properties */
 header.pos-fix {
@@ -167,7 +187,10 @@ p {
 
 
 /* MAIN */
-
+/* sezione piani tariffari top */
+.sec-plan .top{
+    margin-top: 180px;
+}
 
 
 
@@ -178,7 +201,7 @@ footer{
 }
 
 
-/* DEBUG - DA RIMUOVERE */
+/* ------ DEBUG - DA RIMUOVERE ------ */
 /* .debug header {
     background-color: red;
 }
@@ -217,3 +240,13 @@ footer{
     background-color: #b4d0e7;
 }
 
+.debug .sec-plan .top{
+    height: 100px;
+    background-color: violet;
+}
+
+.debug .col{
+    height: 800px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
