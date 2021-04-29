@@ -32,6 +32,14 @@ body {
     margin: 0 auto;
 }
 
+.btn{
+    background-color: #0061ff;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+}
+
 /* header properties */
 header.pos-fix {
     position: fixed;
@@ -79,12 +87,8 @@ header ul li a{
     font-size: 18px;
 }
 
-.btn{
-    background-color: #0061ff;
-    /* border: 1px solid black; */
-    padding: 10px 20px;
-    color: white;
-    display: inline-block;
+header .right-side .btn{
+    padding: 0 20px;
 }
 
 
@@ -133,6 +137,17 @@ p {
 }
 
 
+/* MAIN */
+
+
+
+
+/* footer */
+footer{
+    background-color: black;
+    height: 500px;
+}
+
 
 /* DEBUG - DA RIMUOVERE */
 /* .debug header {
@@ -158,3 +173,18 @@ p {
 /* .debug .jumbotron {
     height: 2000px;
 } */
+
+
+.debug main section{
+    height: 500px;
+    border: 1px solid black;
+}
+
+.debug main section:nth-child(odd){
+    background-color: lightcoral;
+}
+
+.debug main section:nth-child(even){
+    background-color: #b4d0e7;
+}
+
