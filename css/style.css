@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* general properties */
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
-}
-
-header {
-    width: 100%;
-    height: 80px;
 }
 
 .float-l {
@@ -27,6 +27,7 @@ header {
     position: relative;
 }
 
+/* header properties */
 header.pos-fix {
     position: fixed;
     top: 0;
@@ -37,6 +38,7 @@ header.pos-fix {
     position: absolute;
     transform: translateY(-50%);
     top: 50%;
+    line-height: 40px;
 }
 
 .left-side {
@@ -46,6 +48,41 @@ header.pos-fix {
 .right-side {
     right: 0;
 }
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+header .logo{
+    margin-left: 50px;
+}
+
+header .logo img{
+    height: 30px;
+    vertical-align: middle;
+}
+
+
+header ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* DEBUG - DA RIMUOVERE */
@@ -63,4 +100,8 @@ header.pos-fix {
     width: 50%;
     height: 50%;
     background-color: blue;
+}
+
+.debug header .logo{
+    background-color: yellow;
 }
