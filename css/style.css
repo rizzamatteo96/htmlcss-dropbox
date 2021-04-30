@@ -53,7 +53,7 @@ body {
     background-color: #2d7dfd;
 }
 
-.sec-plan .btn{
+.sec-plan .col .btn{
     margin: 30px 0 10px 0;
     width: 100%;
     text-align: center;
@@ -226,6 +226,7 @@ p {
     border: 5px solid blue;
 }
 
+/* columns */
 .title-top{
     text-align: center;
     font-size: 20px;
@@ -269,6 +270,24 @@ hr {
     content: '\2713';
     color: blue;
 }
+
+/* sec-plan - bottom */
+.sec-plan .bottom{
+    border: 1px solid #d0d0d3;
+}
+
+.sec-plan .bottom .box{
+    width: 70%;
+}
+
+.sec-plan .bottom .box > *:not(:last-child){
+padding-bottom: 20px;
+}
+
+.sec-plan .bottom .btn{
+    margin-top: 10px;
+}
+
 
 
 /* footer */
@@ -349,6 +368,6 @@ footer{
 }
 
 .debug .sec-plan .bottom{
-    height: 100px;
+    /* height: 100px; */
     background-color: violet;
 }
