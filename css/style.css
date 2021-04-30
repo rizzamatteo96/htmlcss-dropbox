@@ -240,6 +240,17 @@ main section{
     border: 5px solid blue;
 }
 
+
+/* imposto misura fissa non avendo per ora altri metodi per farlo anche se non mi piace */
+.sec-plan .center{
+    height: 900px;
+}
+
+.sec-plan .center .col{
+    height: 100%;
+}
+/* fine impostazione altezza */
+
 /* columns */
 .title-top{
     text-align: center;
@@ -250,6 +261,7 @@ main section{
 
 .sec-plan .content{
     padding: 30px;
+    height: 100%;
 }
 
 .sec-plan .content > *:not(.btn, hr){
