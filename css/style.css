@@ -43,13 +43,22 @@ body {
 
 /* button */
 .btn{
-    background-color: #0061ff;
     padding: 10px 20px;
-    color: white;
     display: inline-block;
 }
 
-.btn:hover {
+.btn.bl-wh{
+    background-color: #0061ff;
+    color: white;
+}
+
+.btn.none-bk{
+    background-color: none;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn.bl-wh:hover {
     background-color: #2d7dfd;
 }
 
@@ -104,6 +113,7 @@ header {
     width: 100%;
     height: 80px;
     background-color: white;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 header .logo img{
@@ -193,8 +203,12 @@ p {
 }
 
 
-/* MAIN */
+/* ------------------MAIN-------------------- */
 /* sezione piani tariffari top */
+main section{
+    margin-bottom: 120px;
+}
+
 .sec-plan .top{
     margin-top: 180px;
     padding-bottom: 20px;
@@ -281,12 +295,36 @@ hr {
 }
 
 .sec-plan .bottom .box > *:not(:last-child){
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .sec-plan .bottom .btn{
     margin-top: 10px;
 }
+
+/* --------SEC-PARTNER---------- */
+.sec-partner img{
+    width: 55%;
+    vertical-align: middle;
+}
+
+.sec-partner .box{
+    width: 35%;
+    display: inline-block;
+    margin-left: 80px;
+    vertical-align: middle;
+}
+
+.sec-partner .box>*{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -323,10 +361,10 @@ footer{
 } */
 
 
-.debug main section{
+/* .debug main section{
     /* height: 1500px; */
-    border: 1px solid black;
-}
+    /* border: 1px solid black; */
+} */
 
 .debug main .sec-partner{
     height: 500px;
@@ -361,13 +399,10 @@ footer{
     background-color: violet;
 } */
 
-.debug .col{
-    /* height: 800px; */
-    background-color: white;
-    /* border: 1px solid black; */
+.debug main section.sec-plan {
+    background-color: #fff;
 }
 
-.debug .sec-plan .bottom{
-    /* height: 100px; */
-    background-color: violet;
+.debug main section.sec-partner {
+    background-color: #fff;
 }
