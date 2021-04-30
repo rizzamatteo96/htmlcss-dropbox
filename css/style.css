@@ -250,12 +250,12 @@ p {
 }
 
 .sec-plan .content .plan-period{
-    color: grey;
+    color: lightgray;
 }
 
 hr {
     width: 20%;
-    border: 1px solid grey;
+    border: 1px solid #d0d0d3;
     margin: 20px 0;
 }
 
@@ -343,7 +343,7 @@ footer{
 } */
 
 .debug .col{
-    height: 800px;
+    /* height: 800px; */
     background-color: white;
     /* border: 1px solid black; */
 }
