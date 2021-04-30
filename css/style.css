@@ -76,12 +76,12 @@ body {
 /* columns */
 .col{
     float: left;
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - 140px) / 3);
     border: 1px solid #d0d0d3;
 }
 
 .col.middle{
-    margin: 0 30px;
+    margin: 0 70px;
 }
 
 
@@ -348,6 +348,9 @@ hr {
     line-height: 30px;
 }
 
+.sec-operation .row .col .description a{
+    color: black;
+}
 
 
 
@@ -430,5 +433,9 @@ footer{
 }
 
 .debug main section.sec-partner {
+    background-color: #fff;
+}
+
+.debug main section.sec-operation {
     background-color: #fff;
 }
