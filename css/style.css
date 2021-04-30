@@ -320,7 +320,33 @@ hr {
 }
 
 
+/* --------SEC-OPERATION---------- */
+.sec-operation .row{
+    margin-bottom: 50px;
+}
 
+.sec-operation .col{
+    border: none;
+}
+
+.sec-operation h2{
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.sec-operation img{
+    width: 100%;
+}
+
+.sec-operation .row .col h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.sec-operation .row .col .description{
+    font-size: 20px;
+    line-height: 30px;
+}
 
 
 
@@ -366,13 +392,13 @@ footer{
     /* border: 1px solid black; */
 } */
 
-.debug main .sec-partner{
+/* .debug main .sec-partner{
     height: 500px;
-}
+} */
 
-.debug main .sec-operation{
+/* .debug main .sec-operation{
     height: 500px;
-}
+} */
 
 .debug main .sec-teams{
     height: 500px;
