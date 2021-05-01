@@ -365,6 +365,30 @@ hr {
 }
 
 
+/* --------SEC-CUSTOMER---------- */
+.sec-customer h2{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.sec-customer .container-tight a{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.sec-customer .banner-col-center{
+    width: calc(100% - 60vw);
+}
+
+.sec-customer .banner-col{
+    width: 30vw;
+}
+
+.sec-customer .banner-col .banner-box .banner{
+    width: 15vw;
+}
+
+
 
 
 
@@ -403,8 +427,8 @@ footer{
 
 
 /* .debug main section{
-    /* height: 1500px; */
-    /* border: 1px solid black; */
+    height: 1500px;
+    border: 1px solid black;
 } */
 
 /* .debug main .sec-partner{
@@ -415,7 +439,7 @@ footer{
     height: 500px;
 } */
 
-.debug main .sec-teams{
+.debug main .sec-customer{
     height: 500px;
 }
 
@@ -450,4 +474,15 @@ footer{
 
 .debug main section.sec-operation {
     background-color: #fff;
+}
+
+.debug main section.sec-customer .banner-col-center{
+    height: 30vw;
+    background-color: grey;
+}
+
+.debug main .sec-customer .banner{
+    height: 15vw;
+    background-color: red;
+    border: 1px solid black;
 }
