@@ -387,12 +387,28 @@ hr {
 
 .sec-customer .banner-col{
     width: 30vw;
+    min-width: 30vw;
 }
 
 .sec-customer .banner-col .banner-box .banner{
     width: 15vw;
     position: relative;
 }
+
+.sec-customer .banner-col .banner-box .banner:hover{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+.sec-customer .banner-col .banner-box .banner svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    fill: #fff;
+}
+
+
 
 /* banner background color */
 #designit{
@@ -401,6 +417,10 @@ hr {
 
 #asu{
     background-color: #61082b;
+}
+
+#asu svg{
+    width: 50%;
 }
 
 #uf{
