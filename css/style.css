@@ -404,7 +404,7 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 50%;
     fill: #fff;
 }
 
@@ -420,7 +420,7 @@ hr {
 }
 
 #asu svg{
-    width: 50%;
+    width: 30%;
 }
 
 #uf{
@@ -447,6 +447,30 @@ hr {
     background-color: #ffd830;
 }
 
+
+/* central part */
+.banner-col-center{
+    padding: 60px;
+    overflow-y: auto;
+}
+
+.banner-col-center img{
+    width: 150px;
+    margin: 60px 0 20px;
+}
+
+.banner-col-center hr{
+    width: 60px;
+}
+
+.banner-col-center p{
+    margin: 100px 0;
+    font-size: 16px;
+}
+
+.banner-col-center span{
+    font-size: 14px;
+}
 
 
 
@@ -540,7 +564,7 @@ footer{
 
 .debug main section.sec-customer .banner-col-center{
     height: 30vw;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 .debug main .sec-customer .banner{
