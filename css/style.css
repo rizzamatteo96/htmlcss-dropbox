@@ -399,6 +399,10 @@ hr {
     border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
+.sec-customer .banner-col .banner-box .banner:hover svg{
+    width: calc(50% + 10px);
+}
+
 .sec-customer .banner-col .banner-box .banner svg{
     position: absolute;
     top: 50%;
@@ -421,6 +425,10 @@ hr {
 
 #asu svg{
     width: 30%;
+}
+
+.sec-customer .banner-col .banner-box #asu.banner:hover svg{
+    width: calc(30% + 6px);
 }
 
 #uf{
@@ -470,6 +478,12 @@ hr {
 
 .banner-col-center span{
     font-size: 14px;
+}
+
+
+/* --------SEC-TRIAL---------- */
+.sec-customer h2{
+    font-size: 55px;
 }
 
 
