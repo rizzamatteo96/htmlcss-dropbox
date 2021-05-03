@@ -591,7 +591,10 @@ footer>.container-tight{
 .foot-col ul li a{
     text-decoration: none;
     color: white;
+}
 
+.foot-col ul li a:hover{
+    text-decoration: underline;
 }
 
 
