@@ -669,13 +669,66 @@ footer hr{
     position: fixed;
     bottom: 15px;
     right: 15px;
+    z-index: 999;
+}
+
+.chat-symbol>i{
     background-color: #0d2481;
     color: white;
     border-radius: 50%;
     box-shadow: 2px 2px 5px black;
-}
-
-.chat.pos-fix i{
     font-size: 30px;
     padding: 10px;
+}
+
+.chat-form{
+    display: none;
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.chat-form .top-part{
+    padding: 10px 10px;
+    background-color: #0d2481;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-size: 18px;
+}
+
+.chat-form .top-part span{
+    margin-left: 100px;
+}
+
+.chat-form form{
+    padding: 30px;
+    font-size: 12px;
+}
+
+.chat-form input{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.chat-form input[type="email"]{
+    height: 40px;
+}
+
+.chat-form input[type="text"]{
+    height: 230px;
+}
+
+.chat-form .btn{
+    position: relative;
+    left: 207px;
+}
+
+.chat:hover .chat-symbol{
+    display: none;
+}
+
+.chat:hover .chat-form{
+    display: block;
 }
