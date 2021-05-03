@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
@@ -278,7 +278,7 @@ main section{
 
 /* imposto misura fissa non avendo per ora altri metodi per farlo anche se non mi piace */
 .sec-plan .center{
-    height: 900px;
+    height: 1030px;
 }
 
 .sec-plan .center .col{
@@ -310,6 +310,16 @@ main section{
 .sec-plan .content strong.plan-bigtxt{
     font-size: 20px;
 }
+
+.sec-plan .content .plan-user span,
+.sec-plan .content .plan-space span,
+.sec-plan .content .plan-function span{
+    display: inline-block;
+    width: 90%;
+    vertical-align: text-top;
+
+}
+
 
 .sec-plan .content .plan-period{
     color: lightgray;
@@ -503,7 +513,7 @@ hr {
 
 /* central part */
 .banner-col-center{
-    padding: 60px;
+    padding: 55px;
     overflow-y: auto;
 }
 
@@ -540,7 +550,7 @@ hr {
 
 .sec-trial .btn{
     vertical-align: top;
-    margin-left: 120px;
+    margin-left: 100px;
     font-size: 18px;
 }
 
@@ -622,6 +632,7 @@ footer>.container-tight{
 .foot-col ul li a{
     text-decoration: none;
     color: white;
+    font-size: 13px;
 }
 
 .foot-col ul li a:hover{
