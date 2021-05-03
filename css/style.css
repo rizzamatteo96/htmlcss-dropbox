@@ -566,7 +566,7 @@ hr {
 /* --------FOOTER---------- */
 footer{
     background-color: black;
-    height: 500px;
+    /* height: 500px; */
     color: white;
 }
 
@@ -574,6 +574,7 @@ footer>.container-tight{
     padding: 150px 0;
 }
 
+/* footer top */
 .foot-col{
     width: calc(100% / 5);
 }
@@ -596,6 +597,30 @@ footer>.container-tight{
 .foot-col ul li a:hover{
     text-decoration: underline;
 }
+
+/* footer hr */
+footer hr{
+    width: 50px;
+    margin: 100px 0 50px;
+}
+
+/* footer bottom */
+.footer-bottom i:first-child{
+    color: #c0c6cb;
+}
+
+.footer-bottom span{
+    color: #666666;
+}
+
+.footer-bottom i:last-child{
+    color: #40464b;
+}
+
+
+
+
+
 
 
 
