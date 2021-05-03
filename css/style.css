@@ -52,6 +52,11 @@ body {
     color: white;
 }
 
+.btn.wh-bk{
+    background-color: white;
+    color: black;
+}
+
 .btn.none-bk{
     background-color: none;
     color: black;
@@ -366,6 +371,10 @@ hr {
 
 
 /* --------SEC-CUSTOMER---------- */
+.sec-customer{
+    margin-bottom: 0;
+}
+
 .sec-customer h2{
     font-size: 55px;
     margin-bottom: 30px;
@@ -464,7 +473,7 @@ hr {
 
 .banner-col-center img{
     width: 150px;
-    margin: 60px 0 20px;
+    margin: 20px 0;
 }
 
 .banner-col-center hr{
@@ -472,7 +481,7 @@ hr {
 }
 
 .banner-col-center p{
-    margin: 100px 0;
+    margin: 50px 0;
     font-size: 16px;
 }
 
@@ -482,9 +491,30 @@ hr {
 
 
 /* --------SEC-TRIAL---------- */
-.sec-customer h2{
+.sec-trial{
+    padding: 150px 0;
+    background-color: #b4d0e7;
+}
+.sec-trial h2{
+    font-size: 55px;
+    color: #61082b;
+    display: inline-block;
+    width: 65%;
+}
+
+.sec-trial .btn{
+    vertical-align: top;
+    margin-left: 120px;
+    font-size: 18px;
+}
+
+
+/* --------SEC-QUESTION---------- */
+.sec-question h2{
     font-size: 55px;
 }
+
+
 
 
 
@@ -535,32 +565,32 @@ footer{
     height: 500px;
 } */
 
-.debug main .sec-customer{
-    /* height: 500px; */
-}
-
-.debug main .sec-trial{
+/* .debug main .sec-customer{
     height: 500px;
-}
+} */
+
+/* .debug main .sec-trial{
+    height: 500px;
+} */
 
 .debug main .sec-question{
     height: 500px;
 }
 
-.debug main section:nth-child(odd){
+/* .debug main section:nth-child(odd){
     background-color: lightcoral;
 }
 
 .debug main section:nth-child(even){
     background-color: #b4d0e7;
-}
+} */
 
 /* .debug .sec-plan .top{
     height: 100px;
     background-color: violet;
 } */
 
-.debug main section.sec-plan {
+/* .debug main section.sec-plan {
     background-color: #fff;
 }
 
@@ -570,16 +600,16 @@ footer{
 
 .debug main section.sec-operation {
     background-color: #fff;
-}
+} */
 
-.debug .banner-container{
+/* .debug .banner-container{
     border: 1px solid black;
-}
+} */
 
-.debug main section.sec-customer .banner-col-center{
+/* .debug main section.sec-customer .banner-col-center{
     height: 30vw;
-    /* background-color: grey; */
-}
+    background-color: grey;
+} */
 
 .debug main .sec-customer .banner{
     height: 15vw;
