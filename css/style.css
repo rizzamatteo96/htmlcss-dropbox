@@ -647,6 +647,10 @@ footer hr{
     color: #40464b;
 }
 
+.footer-bottom i:hover{
+    cursor: pointer;
+}
+
 
 /* ------INIZIO ELEMENTI FISSI------ */
 /* chat */
@@ -664,98 +668,3 @@ footer hr{
     font-size: 30px;
     padding: 10px;
 }
-
-
-
-
-
-/* ------ DEBUG - DA RIMUOVERE ------ */
-/* .debug header {
-    background-color: red;
-}
-
-.debug .left-side{
-    width: 50%;
-    height: 50%;
-    background-color: green;
-}
-
-.debug .right-side{
-    width: 50%;
-    height: 50%;
-    background-color: blue;
-}
-
-.debug header .logo{
-    background-color: yellow;
-} */
-
-/* .debug .jumbotron {
-    height: 2000px;
-} */
-
-
-/* .debug main section{
-    height: 1500px;
-    border: 1px solid black;
-} */
-
-/* .debug main .sec-partner{
-    height: 500px;
-} */
-
-/* .debug main .sec-operation{
-    height: 500px;
-} */
-
-/* .debug main .sec-customer{
-    height: 500px;
-} */
-
-/* .debug main .sec-trial{
-    height: 500px;
-} */
-
-/* .debug main .sec-question{
-    height: 500px;
-} */
-
-/* .debug main section:nth-child(odd){
-    background-color: lightcoral;
-}
-
-.debug main section:nth-child(even){
-    background-color: #b4d0e7;
-} */
-
-/* .debug .sec-plan .top{
-    height: 100px;
-    background-color: violet;
-} */
-
-/* .debug main section.sec-plan {
-    background-color: #fff;
-}
-
-.debug main section.sec-partner {
-    background-color: #fff;
-}
-
-.debug main section.sec-operation {
-    background-color: #fff;
-} */
-
-/* .debug .banner-container{
-    border: 1px solid black;
-} */
-
-/* .debug main section.sec-customer .banner-col-center{
-    height: 30vw;
-    background-color: grey;
-} */
-
-/* .debug main .sec-customer .banner{
-    height: 15vw;
-    background-color: red;
-    border: 1px solid black;
-} */
