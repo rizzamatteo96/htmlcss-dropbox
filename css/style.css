@@ -133,7 +133,7 @@ header ul li{
 }
 
 /* inizio proprietà - proprietà per creare le linee sotto quando selezionate da abbinare all'hover */
-header ul li:after{
+header nav>ul>li:after{
     content: '';
     position: absolute;
     left: 0;
@@ -144,7 +144,7 @@ header ul li:after{
     opacity: 0;
 }
 
-header ul li:hover:after{
+header nav>ul>li:hover:after{
     opacity: 1;
 }
 /* fine proprietà */
@@ -162,8 +162,38 @@ header .right-side .btn{
     line-height: 30px;
 }
 
+/* header drop down menu */
+header .dropdown{
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    background-color: rgb(250, 250, 250);
+    padding: 20px 0;
+}
 
-/* jumbotron */
+header .dropdown ul li{
+    display: block;
+    padding: 0 30px;
+    margin: 0;
+    line-height: 35px;
+}
+
+header .dropdown ul li a{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header ul li:hover .dropdown{
+    display: block;
+}
+
+header .dropdown ul li:hover{
+    background-color: lightgray;
+}
+
+
+/* --------JUMBOTRON---------- */
 .jumbotron .cont-bgc {
     background-color: #b4d0e7;
     padding-top: 120px;
