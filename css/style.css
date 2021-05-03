@@ -600,7 +600,7 @@ footer>.container-tight{
 
 /* footer hr */
 footer hr{
-    width: 50px;
+    width: 100px;
     margin: 100px 0 50px;
 }
 
@@ -618,7 +618,22 @@ footer hr{
 }
 
 
+/* ------INIZIO ELEMENTI FISSI------ */
+/* chat */
+.chat.pos-fix{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #0d2481;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+}
 
+.chat.pos-fix i{
+    font-size: 30px;
+    padding: 10px;
+}
 
 
 
