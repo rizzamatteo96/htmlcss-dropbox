@@ -521,6 +521,10 @@ hr {
     padding: 30px 0;
 }
 
+.sec-question ul li:last-child{
+    border-bottom: 1px solid #d0d0d3;
+}
+
 .sec-question h4{
     font-weight: 400;
     font-size: 20px;
