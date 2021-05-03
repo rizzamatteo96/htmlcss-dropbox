@@ -179,7 +179,7 @@ h1{
     width: 30%;
 }
 
-p {
+.jumbotron p {
     line-height: 26px;
     margin-bottom: 30px;
     font-size: 22px;
@@ -512,9 +512,45 @@ hr {
 /* --------SEC-QUESTION---------- */
 .sec-question h2{
     font-size: 55px;
+    margin-bottom: 50px;
 }
 
+.sec-question ul li{
+    list-style: none;
+    border-top: 1px solid #d0d0d3;
+    padding: 30px 0;
+}
 
+.sec-question h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sec-question .arrow-list{
+    color: black;
+    margin-right: 50px;
+}
+
+.sec-question .arrow-list.active{
+    display: none;
+}
+
+.sec-question p{
+    display: none;
+    color: #657583;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.sec-question ul li:hover .arrow-list.not-active{
+    display: none;
+}
+.sec-question ul li:hover .arrow-list.active{
+    display: block;
+}
+.sec-question ul li:hover p{
+    display: block;
+}
 
 
 
