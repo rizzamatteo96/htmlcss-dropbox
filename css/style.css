@@ -426,6 +426,7 @@ hr {
 .sec-customer .banner-col-center{
     width: calc(100% - 60vw);
     background-color: #f5f5f5;
+    max-height: 60vw;
 }
 
 .sec-customer .banner-col{
@@ -589,8 +590,6 @@ hr {
 .sec-question ul li:hover p{
     display: block;
 }
-
-
 
 
 /* --------FOOTER---------- */
